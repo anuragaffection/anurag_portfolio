@@ -5,11 +5,11 @@ import { FaYoutube, FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook } f
 const footerContainer = "bg-gray-950 text-gray-200";
 const footerWrapper = `flex flex-col justify-center items-center gap-5 p-4`;
 const logo = `mt-5 md:mt-7 text-center text-2xl text-light text-yellow-400 `;
-const nav = `flex`;
-const navLink = `mx-3 md:mx-5 hover:text-yellow-400 text-xl text-gray-100`;
-const socialMediaWrapper = `flex`;
-const socialMediaIcon = `mx-3 md:mx-5 hover:text-yellow-400 text-2xl`;
-const copyright = `mt-5 mb-5 text-light text-yellow-400`;
+const nav = `flex justify-center items-center`;
+const navLink = `ml-3 md:mx-5 hover:text-yellow-400 text:sm md:text-xl text-gray-100`;
+const socialMediaWrapper = `flex justify-center items-center`;
+const socialMediaIcon = `ml-4 md:mx-5 hover:text-yellow-400 text-2xl`;
+const copyright = ` mb-5 text-light text-yellow-400 flex flex-col md:flex-row md:gap-3 justify-center items-center`;
 
 function Footer() {
   return (
@@ -38,7 +38,9 @@ function Footer() {
         </div>
 
         <div className={copyright}>
-          &copy; 2023 A Family of Love & Affection. All rights reserved.
+          <span>&copy; 2023 </span>
+          <span>All rights reserved.</span>
+          <span>A Family of Love & Affection. </span>
         </div>
 
       </div>
