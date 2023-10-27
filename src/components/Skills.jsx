@@ -1,7 +1,7 @@
 import React from 'react'
 import { skills } from '../data/Skills';
 
-const container = `bg-gray-800 text-gray-100`;
+const container = `bg-gradient-to-t from-slate-900 to-gray-900 text-gray-100`;
 const wrapper = `flex flex-col justify-center items-center p-4 gap-4`;
 const skillContainer = 'flex flex-col p-2 md:p-3 md:grid md:gap-2 grid-cols-2 grid-rows-auto' ;
 const skillStyle = 'flex flex-col justify-center items-center bg-gray-950 p-2 md:p-3 m-2 md:m-3 rounded-xl';

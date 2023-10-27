@@ -1,6 +1,6 @@
 import React from 'react'
 
-const container = `bg-gray-800 text-gray-200 p-4`
+const container = `bg-gradient-to-t from-slate-900 to-gray-900 text-gray-200 p-4`
 const wrapper = `flex flex-col gap-3 md:justify-center md:items-center my-3`
 const title = `text-center text-yellow-400 text-2xl font-semibold`
 const titleDesc = `text-center text-xl`

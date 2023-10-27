@@ -7,7 +7,7 @@ export const skills = [
             {
                 id: 1.1,
                 name: "C Programming",
-                image: 'https://en.wikipedia.org/wiki/C_(programming_language)#/media/File:The_C_Programming_Language_logo.svg',
+                image: 'https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png',
             },
             {
                 id: 1.2,
@@ -77,7 +77,7 @@ export const skills = [
             {
                 id: 2.5,
                 name: 'AWS',
-                image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+                image: "https://www.econsys.com/wp-content/uploads/2020/10/aws-logo.jpg",
             },
         ]
     },
@@ -91,12 +91,12 @@ export const skills = [
             {
                 id: 3.1,
                 name: "React Js",
-                image: 'https://en.wikipedia.org/wiki/File:React-icon.svg',
+                image: 'https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png',
             },
             {
                 id: 3.2,
                 name: "Express Js",
-                image: 'https://en.wikipedia.org/wiki/Express.js#/media/File:Expressjs.png',
+                image: 'https://th.bing.com/th/id/OIP.1ji9NLQl3sOXktSoEYnt3wHaHa?pid=ImgDet&rs=1',
             },
             {
                 id: 3.3,
@@ -106,7 +106,7 @@ export const skills = [
             {
                 id: 3.4,
                 name: "Material UI",
-                image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmui.com%2Fmaterial-ui%2Freact-link%2F&psig=AOvVaw0WTOtbxHAvuALGDDmQsYff&ust=1698148579296000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDj7smOjIIDFQAAAAAdAAAAABAD',
+                image: 'https://avatars.githubusercontent.com/u/33663932?v=4',
             },
         ]
     },
@@ -120,7 +120,7 @@ export const skills = [
             {
                 id: 4.1,
                 name: "Next js",
-                image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Flogowik.com%2Fnextjs-logo-vector-svg-png-free-download-22004.html&psig=AOvVaw0q-IZ-fmtPrMgb-8-9S1Pm&ust=1698148617895000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCnldyOjIIDFQAAAAAdAAAAABAD',
+                image: 'https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png',
             },
             {
                 id: 4.2,
@@ -130,7 +130,7 @@ export const skills = [
             {
                 id: 4.3,
                 name: "Tailwind CSS",
-                image: 'https://en.wikipedia.org/wiki/Tailwind_CSS#/media/File:Tailwind_CSS_logo.svg',
+                image: 'https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp',
             },
         ]
     },
@@ -164,7 +164,7 @@ export const skills = [
             {
                 id: 5.5,
                 name: "Vercel",
-                image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+                image: "https://yt3.ggpht.com/a/AATXAJyIDBA4e3bojKFwANXtkLdQJ2E9tmAhRDJtcw=s900-c-k-c0xffffffff-no-rj-mo",
             },
 
 
