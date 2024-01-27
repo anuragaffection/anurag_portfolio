@@ -29,7 +29,7 @@ function About() {
           <div className='text-xl font-semibold mt-2'>
             <span className='font-bold mr-2 '>a</span>
             <ReactTyped
-              className='text-xl text-gray-950 p-1 px-4 rounded bg-gradient-to-l from-amber-500 to-lime-600'
+              className='text-xl text-gray-950 p-1 px-4 rounded bg-gradient-to-r from-cyan-500 to-blue-500 '
               strings={Bio.roles}
               startDelay={100}
               typeSpeed={50}
