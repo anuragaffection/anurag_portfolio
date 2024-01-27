@@ -5,7 +5,7 @@ export const Bio = {
         "Consistence Learner.",
         "Software Developer. ",
         "Problem Solver.",
-        "Programmer. ",
+        "Programmar. ",
         "Tutor.",
     ],
     description: "I am an enthusiastic problem solver, consistence learner . Eager to embrace new challenges. Fueled by a passion in technology. I am dedicated to delivering top-notch results. With a positive mindset and a commitment to growth, I am ready to create a meaningful impact and attain significant achievements.",

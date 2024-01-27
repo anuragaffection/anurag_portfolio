@@ -10,7 +10,10 @@ const logoImg = 'rounded-full'
 const logo = ` text-xl text-amber-500 font-bold`;
 const nav = ` hidden md:flex justify-center items-center list-none gap-10 `;
 const navLink = `hover:text-lime-400 text-xl font-semibold duration-500`;
-
+const btnSytle = 'hidden lg:flex bg-lime-600 hover:bg-lime-400 duration-500 text-gray-950 rounded-lg p-3 px-8'
+const faWrapper = 'md:hidden cursor-pointer text-lime-600 hover:text-lime-400 duration-200'
+const mobileNav = 'md:hidden h-screen bg-gray-950 w-1/2 fixed right-0 p-4'
+const mobileNavUl = 'flex flex-col gap-7 justify-center items-center'
 
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
@@ -18,10 +21,8 @@ function Navbar() {
 
     return (
         <>
-            <div className='sticky top-0 text-lime-600'>
-
+            <div className='sticky top-0 text-lime-600 z-10'>
                 <div className={navbarContainer}>
-
                     <div className={logoWrapper}>
                         <img
                             className={logoImg}
@@ -32,7 +33,6 @@ function Navbar() {
                         />
                         <div className={logo}>{Bio.name}</div>
                     </div>
-
                     <div className={nav}>
                         {
                             sections && sections.map((section, index) => (
@@ -40,29 +40,22 @@ function Navbar() {
                             ))
                         }
                     </div>
-
-                    <button
-                        className='hidden lg:flex bg-lime-600 hover:bg-lime-400 duration-500 text-gray-950 rounded-lg p-3 px-8'> LinkedIn
-                    </button>
-
+                    <button className={btnSytle}> LinkedIn</button>
                     <div
                         onClick={() => setIsMobile(!isMobile)}
-                        className='md:hidden cursor-pointer text-lime-600 hover:text-lime-400 duration-200'
+                        className={faWrapper}
                     >
                         {
                             isMobile ? <FaTimes size={30} /> : <FaBars size={30} />
                         }
                     </div>
-
-
                 </div>
-
                 {
                     isMobile && (
                         <div
                             onClick={() => setIsMobile(!isMobile)}
-                            className='md:hidden h-screen bg-gray-950 w-1/2 fixed right-0 p-4'>
-                            <ul className='flex flex-col gap-7 justify-center items-center'>
+                            className={mobileNav}>
+                            <ul className={mobileNavUl}>
                                 {
                                     sections && sections.map((section, index) => (
                                         <li key={index} className={navLink}> {section} </li>

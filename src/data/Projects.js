@@ -1,7 +1,13 @@
+import anurag_portfolio from '../assets/anurag_portfolio.jpg'
+import article_app from '../assets/article_app.jpg'
+import full_stack_notes from '../assets/full_stack_notes.jpg'
+import resume_builder from '../assets/resume_builder.jpg'
+import resume_preview from '../assets/resume_preview.jpg'
+
 export const projects = [
     {
         id: 0,
-        img: '',
+        img: resume_builder,
         skills: ["React", "MUI", "Redux Toolkit", "React Hook Form"],
         title: 'Resume Builder',
         date: 'January 2024 - February 2024',
@@ -11,7 +17,7 @@ export const projects = [
     },
     {
         id: 1,
-        img: '',
+        img: article_app,
         skills: ["React", "Express", "MongoDB", "Tailwind", "JWT", "Axios"],
         title: 'Article App',
         date: 'November 2023 - January 2024',
@@ -21,7 +27,7 @@ export const projects = [
     },
     {
         id: 2,
-        img: '',
+        img: anurag_portfolio,
         skills: ["Tailwind CSS", "React", "Javascript", "HTML", "CSS"],
         title: 'Anurag Portfolio',
         date: 'January 2024 - February 2024',
@@ -31,7 +37,7 @@ export const projects = [
     },
     {
         id: 3,
-        img: '',
+        img: full_stack_notes,
         skills: ["Java", "DSA", "Javascript", "MERN", "Kotlin"],
         title: 'Full Stack Notes',
         date: 'May 2023 - Present',
