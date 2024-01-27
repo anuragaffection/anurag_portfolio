@@ -46,7 +46,7 @@ function About() {
 
 
         <button
-          className='w-1/2 md:w-1/3 bg-lime-600 hover:bg-lime-400 duration-500 text-gray-950 rounded-lg p-3 px-5'> Github
+          className='w-1/2 md:w-1/3 bg-gradient-to-r from-cyan-500 to-blue-500 shadow hover:shadow-cyan-400 duration-500 text-gray-950 font-semibold rounded-lg p-3 px-5'> Github
         </button>
       </div>
 
