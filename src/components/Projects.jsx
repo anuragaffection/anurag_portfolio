@@ -7,13 +7,13 @@ const title = 'text-4xl font-bold text-amber-500';
 const subTitle = 'text-2xl text-center';
 const projectContainer = 'flex flex-wrap gap-12 md:grid grid-cols-2 lg:grid-cols-3 grid-rows-auto'
 const projectWrapper = 'bg-gray-950 flex flex-col gap-6 py-10 px-7 rounded-lg border border-lime-800 hover:border-lime-600 duration-500 shadow-md shadow-lime-500'
-const imgWrapper = 'bg-gradient-to-r from-cyan-500 to-blue-500 rounded p-px hover:scale-105 duration-500'
+const imgWrapper = 'bg-gradient-to-l from-amber-600 to-lime-600 rounded p-px hover:scale-105 duration-500'
 const projectImgStyle = 'rounded'
 const nameDateWrapper = 'flex flex-col gap-1'
 const nameStyle = 'text-amber-600 text-2xl font-semibold'
 const dateStyle = 'text-gray-400 text-sm'
 const skillWrapper = 'flex flex-wrap gap-2'
-const skillStyle = 'px-3 py-1 text-sm text-gray-950 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full'
+const skillStyle = 'px-3 py-1 text-sm text-gray-950 bg-gradient-to-l from-amber-600 to-lime-600 rounded-full'
 const btnWrapper = 'flex justify-between gap-4';
 const btnSytle = 'bg-lime-600 hover:bg-lime-400 duration-500 rounded-lg text-gray-950 py-3 px-5';
 
