@@ -1,43 +1,80 @@
-import React from 'react'
-import { Bio } from '../data/Bio';
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import AnuragAffection from '../assets/anuragaffection.jpg'
+import { Bio } from '../data/Bio';
 
-const navbarContainer = `flex justify-between bg-gray-900 text-gray-100 text-lg w-full flex-col md:flex-row p-1 gap-2 sticky top-0`;
-const logo = ` text-xl text-yellow-400 font-semibold`;
+
+const navbarContainer = `flex justify-around items-center bg-gray-950 p-4`;
+const logoWrapper = `flex justify-center items-center gap-2 `
 const logoImg = 'rounded-full'
-const logoWrapper = `flex justify-center items-center gap-2 ml-4 mt-2 md:mt-0`
-const nav = `flex justify-center items-center list-none gap-4 md:gap-8 mr-0 md:mr-4 xl:mr-8 mb-2 md:mb-0 mt-2 md:mt-0`;
-const navLink = `hover:text-yellow-400 md:text-xl text-sm`;
+const logo = ` text-xl text-amber-500 font-bold`;
+const nav = ` hidden md:flex justify-center items-center list-none gap-10 `;
+const navLink = `hover:text-lime-400 text-xl font-semibold duration-500`;
+
 
 function Navbar() {
+    const [isMobile, setIsMobile] = useState(false);
+    const sections = ['Skills', 'Experience', 'Projects', 'Blogs', 'Contact'];
+
     return (
         <>
-            <div className={navbarContainer}>
+            <div className='sticky top-0 text-lime-600'>
 
-                <div className={logoWrapper}>
-                    <img
-                        className={logoImg}
-                        src={AnuragAffection}
-                        alt="Logo"
-                        height={'40px'}
-                        width={'40px'}
-                    />
-                    <div className={logo}>{Bio.name}</div>
+                <div className={navbarContainer}>
+
+                    <div className={logoWrapper}>
+                        <img
+                            className={logoImg}
+                            src={AnuragAffection}
+                            alt="Logo"
+                            height={'40px'}
+                            width={'40px'}
+                        />
+                        <div className={logo}>{Bio.name}</div>
+                    </div>
+
+                    <div className={nav}>
+                        {
+                            sections && sections.map((section, index) => (
+                                <li key={index} className={navLink}> {section} </li>
+                            ))
+                        }
+                    </div>
+
+                    <button
+                        className='hidden lg:flex bg-lime-600 hover:bg-lime-400 duration-500 text-gray-950 rounded-lg p-3 px-8'> LinkedIn
+                    </button>
+
+                    <div
+                        onClick={() => setIsMobile(!isMobile)}
+                        className='md:hidden cursor-pointer text-lime-600 hover:text-lime-400 duration-200'
+                    >
+                        {
+                            isMobile ? <FaTimes size={30} /> : <FaBars size={30} />
+                        }
+                    </div>
+
+
                 </div>
 
-                <div className={nav}>
-                    <li className={navLink}>Home </li>
-                    <li className={navLink}>About</li>
-                    <li className={navLink}>Skills</li>
-                    <li className={navLink}>Projects</li>
-                    <li className={navLink}>Blogs </li>
-                    <li className={navLink}>Contact </li>
-                </div>
+                {
+                    isMobile && (
+                        <div
+                            onClick={() => setIsMobile(!isMobile)}
+                            className='md:hidden h-screen bg-gray-950 w-1/2 fixed right-0 p-4'>
+                            <ul className='flex flex-col gap-7 justify-center items-center'>
+                                {
+                                    sections && sections.map((section, index) => (
+                                        <li key={index} className={navLink}> {section} </li>
+                                    ))
+                                }
+                            </ul>
+                        </div>
+                    )
+                }
 
             </div>
-
         </>
-
     )
 }
 

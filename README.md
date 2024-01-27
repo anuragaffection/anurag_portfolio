@@ -21,13 +21,13 @@ An application describing about my resume.
 - Vite
 - Npm
 - HTML
-- Tailwind CSS
 - React.js
 - Javascript
+- Tailwind CSS
 
 ## Installation
 
-1. Clone the repository.
+1. Fork & Clone the repository.
 2. Navigate to the folder and run `npm install` to install dependencies.
 3. Run `npm run dev` to start the application.
 

@@ -13,13 +13,9 @@ const copyright = ` mb-5 text-light text-yellow-400 flex flex-col md:flex-row md
 
 function Footer() {
   return (
-
     <footer className={footerContainer}>
-
       <div className={footerWrapper}>
-
         <div className={logo}> {Bio.name}</div>
-
         <div className={nav}>
           <div className={navLink}>About</div>
           <div className={navLink}>Skills</div>
@@ -27,7 +23,6 @@ function Footer() {
           <div className={navLink}>Blogs</div>
           <div className={navLink}>Contact</div>
         </div>
-
         <div className={socialMediaWrapper}>
           <a className={socialMediaIcon} href={Bio.github} target='_blank'><FaGithub /></a>
           <a className={socialMediaIcon} href={Bio.linkedin} target='_blank'><FaLinkedin /></a>
@@ -36,16 +31,13 @@ function Footer() {
           <a className={socialMediaIcon} href={Bio.facebook} target='_blank'><FaFacebook /></a>
           <a className={socialMediaIcon} href={Bio.instagram} target='_blank'><FaInstagram /></a>
         </div>
-
         <div className={copyright}>
           <span>&copy; 2023 </span>
           <span>All rights reserved.</span>
           <span>A Family of Love & Affection. </span>
         </div>
-
       </div>
     </footer >
-
   )
 }
 
