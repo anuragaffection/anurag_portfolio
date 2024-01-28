@@ -20,7 +20,7 @@ const skillStyle = 'mx-3 text-gray-400'
 
 function Experience() {
   return (
-    <div className={container}>
+    <div name='experience' className={container}>
       <div className={wrapper}>
         <div className={title}>Experience</div>
         <div className={subTitle}>My Work Experience as a Software Developer</div>

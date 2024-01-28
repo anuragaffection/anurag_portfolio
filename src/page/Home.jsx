@@ -2,7 +2,6 @@ import React from 'react'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
-import Blogs from '../components/Blogs'
 import Contact from '../components/Contact'
 import Experience from '../components/Experience'
 
@@ -11,9 +10,8 @@ function Home() {
     <>
       <About />
       <Skills />
-      <Experience/>
+      <Experience />
       <Projects />
-      <Blogs />
       <Contact />
     </>
   )

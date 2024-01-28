@@ -20,7 +20,7 @@ const btnSytle = 'bg-gradient-to-r from-cyan-500 to-blue-500 shadow hover:shadow
 
 function Projects() {
   return (
-    <div className={container}>
+    <div name='projects' className={container}>
       <div className={wrapper}>
         <div className={title}>Projects</div>
         <div className={subTitle}>Here is My Recent Projects defining Experience </div>

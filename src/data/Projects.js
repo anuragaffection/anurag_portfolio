@@ -2,7 +2,6 @@ import anurag_portfolio from '../assets/anurag_portfolio.jpg'
 import article_app from '../assets/article_app.jpg'
 import full_stack_notes from '../assets/full_stack_notes.jpg'
 import resume_builder from '../assets/resume_builder.jpg'
-import resume_preview from '../assets/resume_preview.jpg'
 
 export const projects = [
     {

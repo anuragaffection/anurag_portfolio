@@ -44,3 +44,13 @@ bg-gradient-to-b from-slate-950 to-slate-900
 
 
 // copied code 
+ {/* <div className={nav}>
+          <div className={navLink}>About</div>
+          <div className={navLink}>Skills</div>
+          <div className={navLink}>Projects</div>
+          <div className={navLink}>Blogs</div>
+          <div className={navLink}>Contact</div>
+        </div> */}
+
+const nav = `flex justify-center items-center`;
+const navLink = `ml-3 md:mx-5 hover:text-yellow-400 text:sm md:text-xl text-gray-100`;

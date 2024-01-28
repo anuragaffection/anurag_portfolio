@@ -16,7 +16,7 @@ const skillName = 'text-gray-300';
 function Skills() {
   return (
     <>
-      <div className={container}>
+      <div name='skills' className={container}>
         <div className={wrapper}>
           <div className={title}>Skills</div>
           <div className={desc}>Here are some of my skills, on which I have worked </div>
