@@ -24,6 +24,9 @@ An application describing about my resume.
 - React.js
 - Javascript
 - Tailwind CSS
+- react-scroll 
+- react-icons
+- getform.io
 
 ## Installation
 
