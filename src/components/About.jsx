@@ -1,5 +1,5 @@
 import React from 'react'
-import anuragaffection from '../assets/anuragaffection.jpg'
+import anuragImage from '../assets/anuragImage.jpg'
 import ResumeAnurag from '../assets/ResumeAnurag.pdf'
 import { ReactTyped } from 'react-typed'
 import { Bio } from '../data/Bio'
@@ -23,7 +23,7 @@ function About() {
       <div className={imgWrapper}>
         <img
           className={imgStyle}
-          src={anuragaffection}
+          src={anuragImage}
           alt={'myImage'}
           height={'300px'}
           width={'300px'}
