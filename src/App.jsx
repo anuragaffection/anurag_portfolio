@@ -4,7 +4,7 @@ import Navbar from './page/Navbar'
 
 function App() {
   return (
-    <div className='m-0 w-screen bg-gray-400'>
+    <div className='m-0 w-screen bg-gray-950'>
       <Navbar />
       <Home />
       <Footer />
