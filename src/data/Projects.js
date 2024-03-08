@@ -2,6 +2,7 @@ import anurag_portfolio from '../assets/anurag_portfolio.jpg'
 import article_app from '../assets/article_app.jpg'
 import full_stack_notes from '../assets/full_stack_notes.jpg'
 import resume_builder from '../assets/resume_builder.jpg'
+import spotify_clone from '../assets/spotify_clone.png'
 
 export const projects = [
     {
@@ -43,5 +44,15 @@ export const projects = [
         desc: 'A repo you need for Programming & Problem Solving. This is contains everthing you need to be full stack web developer with DSA.',
         live: 'https://github.com/anuragaffection/FullStackNotes',
         github: 'https://github.com/anuragaffection/FullStackNotes'
+    },
+    {
+        id: 4,
+        img: spotify_clone,
+        skills: ["Tailwind CSS", "React", "React Icons", "Vite", "NPM"],
+        title: 'Spotify Clone',
+        date: 'February 2024 - February 2024',
+        desc: 'Tried cloning the Home and Search pages of Spotify. This was an assignment given during job hunting. Remember, many functionalities will not work, as it is just a frontend Tailwind CSS implementation.',
+        live: 'https://spotify-clone-anurag-affection.netlify.app/',
+        github: 'https://github.com/anuragaffection/spotify-clone-assignment'
     }
 ]
