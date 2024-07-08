@@ -7,13 +7,13 @@ import Experience from '../components/Experience'
 
 function Home() {
   return (
-    <>
+    <div className=''>
       <About />
       <Skills />
       <Experience />
       <Projects />
       <Contact />
-    </>
+    </div>
   )
 }
 

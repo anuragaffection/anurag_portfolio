@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { Bio } from '../data/Bio';
 
 
-const navbarContainer = `flex justify-around items-center bg-gray-950 p-4`;
+const navbarContainer = `overflow-hidden flex justify-around items-center bg-gray-950 p-4`;
 const logoWrapper = `flex justify-center items-center gap-2 cursor-pointer`
 const logoImg = 'rounded-full'
 const logo = ` text-xl text-amber-600 font-bold`;
@@ -70,7 +70,7 @@ function Navbar() {
                             href={Bio.linkedin}
                             target='_blank'
                         >
-                           
+
                             LinkedIn
                         </a>
                     </button>

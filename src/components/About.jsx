@@ -2,10 +2,10 @@ import React from 'react'
 import anuragImage from '../assets/anuragImage.jpg'
 import ResumeAnurag from '../assets/ResumeAnurag.pdf'
 import { ReactTyped } from 'react-typed'
-import {FaFileDownload} from 'react-icons/fa'
+import { FaFileDownload } from 'react-icons/fa'
 import { Bio } from '../data/Bio'
 
-const container = 'bg-gradient-to-b from-slate-950 to-slate-900 text-gray-100 text-xl p-8 md:px-24 md:py-20 flex flex-col md:flex-row-reverse gap-6 justify-center items-center'
+const container = 'overflow-hidden bg-gradient-to-b from-slate-950 to-slate-900 text-gray-100 text-xl p-8 md:px-24 md:py-20 flex flex-col md:flex-row-reverse gap-6 justify-center items-center'
 const imgWrapper = 'flex-1 flex justify-center items-center'
 const imgStyle = 'rounded-full border border-lime-800 hover:border-lime-500 duration-500'
 const introAboutWrapper = 'flex flex-1 flex-col flex-wrap gap-8'
@@ -52,7 +52,7 @@ function About() {
         <button
           className={btnStyle}
         >
-          <a className={linkStyle} href={ResumeAnurag} download='ResumeAnurag.pdf' target="_blank">Resume <FaFileDownload/> </a>
+          <a className={linkStyle} href={ResumeAnurag} download='ResumeAnurag.pdf' target="_blank">Resume <FaFileDownload /> </a>
         </button>
       </div>
     </div>

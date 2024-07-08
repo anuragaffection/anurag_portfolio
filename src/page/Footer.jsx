@@ -2,7 +2,7 @@ import React from 'react'
 import { Bio } from '../data/Bio';
 import { FaYoutube, FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'
 
-const footerContainer = "bg-gray-950 text-cyan-600";
+const footerContainer = "overflow-hidden bg-gray-950 text-cyan-600";
 const footerWrapper = `flex flex-col justify-center items-center gap-5 p-4`;
 const logo = `mt-5 md:mt-7 text-3xl font-semibold text-amber-600 `;
 const socialMediaWrapper = `flex justify-center items-center gap-1`;

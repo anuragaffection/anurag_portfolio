@@ -1,6 +1,6 @@
 import React from 'react'
 
-const container = `bg-gradient-to-b from-slate-950 to-slate-900 text-gray-200 p-4`
+const container = `overflow-hidden bg-gradient-to-b from-slate-950 to-slate-900 text-gray-200 p-4`
 const wrapper = `flex flex-col gap-3 justify-center items-center my-3`
 const title = `text-center text-amber-600 text-4xl font-bold`
 const titleDesc = `text-center text-xl`
@@ -24,8 +24,8 @@ function Contact() {
             className={contactForm}
           >
             <div className={contactTitle}>Email Me</div>
-            <input className={inputStyle} type="text" name='name' placeholder='Your Name'  />
-            <input className={inputStyle} type="email" name='email' placeholder='Your Email' required/>
+            <input className={inputStyle} type="text" name='name' placeholder='Your Name' />
+            <input className={inputStyle} type="email" name='email' placeholder='Your Email' required />
             <textarea className={inputStyleTextArea} name='message' rows={4} placeholder='Message'></textarea>
             <button className={sendButton} type='submit'>Send</button>
           </form>
