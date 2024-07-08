@@ -1,7 +1,7 @@
 import React from 'react'
 import { projects } from '../data/Projects.js'
 
-const container = 'overflow-hidden bg-gradient-to-t from-slate-950 to-slate-900 text-gray-100 py-20 px-10';
+const container = ' bg-gradient-to-t from-slate-950 to-slate-900 text-gray-100 py-20 px-10';
 const wrapper = 'flex flex-col justify-center items-center gap-6';
 const title = 'text-4xl font-bold text-amber-500';
 const subTitle = 'text-2xl text-center';

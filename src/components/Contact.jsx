@@ -1,6 +1,6 @@
 import React from 'react'
 
-const container = `overflow-hidden bg-gradient-to-b from-slate-950 to-slate-900 text-gray-200 p-4`
+const container = ` bg-gradient-to-b from-slate-950 to-slate-900 text-gray-200 p-4`
 const wrapper = `flex flex-col gap-3 justify-center items-center my-3`
 const title = `text-center text-amber-600 text-4xl font-bold`
 const titleDesc = `text-center text-xl`
