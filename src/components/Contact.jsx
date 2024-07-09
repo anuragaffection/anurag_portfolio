@@ -1,6 +1,6 @@
 import React from 'react';
 
-const container = ` text-gray-200 py-20 px-5 md:px-10`;
+const container = ` text-gray-200 py-20 px-2 md:px-8`;
 const wrapper = `flex flex-col gap-3 justify-center items-center my-3`;
 const title = `text-center text-amber-600 text-4xl font-bold`;
 const titleDesc = `text-center text-xl`;
