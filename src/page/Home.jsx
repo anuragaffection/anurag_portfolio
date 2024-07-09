@@ -7,7 +7,7 @@ import Experience from '../components/Experience'
 
 function Home() {
   return (
-    <div className=''>
+    <div className='px-4 md:px-6 lg:px-8 xl:px-10 pt-4 md:pt-10 lg:pt-12 xl:pt-16 bg-gradient-to-b from-slate-950 to-slate-900' >
       <About />
       <Skills />
       <Experience />

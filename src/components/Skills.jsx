@@ -1,7 +1,7 @@
 import React from 'react'
 import { skills } from '../data/Skills';
 
-const container = ` bg-gradient-to-t from-slate-950 to-slate-900 text-gray-100 pt-6`;
+const container = ` text-gray-100 pt-6`;
 const wrapper = `flex flex-col justify-center items-center py-20 md:py-16 px-10 md:py-10 gap-4`;
 const title = 'text-4xl font-bold text-amber-500';
 const desc = 'text-xl text-center';

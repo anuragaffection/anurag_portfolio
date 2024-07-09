@@ -23,7 +23,7 @@ function Footer() {
           <a className={socialMediaIcon} href={Bio.instagram} target='_blank'><FaInstagram /></a>
         </div>
         <div className={copyright}>
-          <span>&copy; 2023 </span>
+          <span>&copy; 2027 </span>
           <span>All rights reserved.</span>
           <span>A Family of Love & Affection. </span>
         </div>
