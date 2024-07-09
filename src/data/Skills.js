@@ -10,14 +10,10 @@ export const skills = [
             },
             {
                 id: 1.2,
-                name: "CSS",
-                image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png',
+                name: "G0",
+                image: 'https://avatars.githubusercontent.com/u/4314092?s=200&v=4',
             },
-            {
-                id: 1.3,
-                name: "HTML",
-                image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-            },
+
             {
                 id: 1.4,
                 name: 'Java',
@@ -29,21 +25,17 @@ export const skills = [
                 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
             },
 
-            {
-                id: 1.6,
-                name: "Kotlin",
-                image: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-            },
-            {
-                id: 1.7,
-                name: "Node Js",
-                image: "https://nodejs.org/static/images/logo.svg",
-            },
-            {
-                id: 1.8,
-                name: "XML",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-            },
+            // {
+            //     id: 1.6,
+            //     name: "Kotlin",
+            //     image: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+            // },
+            // {
+            //     id: 1.7,
+            //     name: "Node Js",
+            //     image: "https://nodejs.org/static/images/logo.svg",
+            // },
+
         ]
     },
     {
@@ -65,11 +57,7 @@ export const skills = [
                 name: "MySQL",
                 image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
             },
-            {
-                id: 2.4,
-                name: 'Cloud Firebase',
-                image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-            },
+
             {
                 id: 2.5,
                 name: 'AWS',
@@ -79,7 +67,7 @@ export const skills = [
     },
     {
         id: 3,
-        title: "Libraries",
+        title: "Libraries & Frameworks",
         skill: [
             {
                 id: 3.1,
@@ -88,30 +76,27 @@ export const skills = [
             },
             {
                 id: 3.2,
+                name: "Next js",
+                image: 'https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png',
+            },
+            {
+                id: 3.3,
                 name: "Express Js",
                 image: 'https://th.bing.com/th/id/OIP.1ji9NLQl3sOXktSoEYnt3wHaHa?pid=ImgDet&rs=1',
             },
             {
-                id: 3.3,
+                id: 3.4,
                 name: "Redux",
                 image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
             },
-            {
-                id: 3.4,
-                name: "Material UI",
-                image: 'https://avatars.githubusercontent.com/u/33663932?v=4',
-            },
+
         ]
     },
     {
         id: 4,
-        title: "Frameworks",
+        title: "UI",
         skill: [
-            {
-                id: 4.1,
-                name: "Next js",
-                image: 'https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png',
-            },
+
             {
                 id: 4.2,
                 name: "Bootstrap",
@@ -121,6 +106,32 @@ export const skills = [
                 id: 4.3,
                 name: "Tailwind CSS",
                 image: 'https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp',
+            },
+            {
+                id: 4.4,
+                name: "Material UI",
+                image: 'https://avatars.githubusercontent.com/u/33663932?v=4',
+            },
+            // {
+            //     id: 4.5,
+            //     name: "Figma",
+            //     image:
+            //         "https://policyviz.com/wp-content/uploads/2020/05/2000px-Figma-logo.svg-1024x1536.png",
+            // },
+            {
+                id: 4.6,
+                name: "CSS",
+                image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png',
+            },
+            {
+                id: 4.7,
+                name: "HTML",
+                image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+            },
+            {
+                id: 4.8,
+                name: "XML",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
             },
         ]
     },
@@ -138,16 +149,16 @@ export const skills = [
                 name: "GitHub",
                 image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
             },
-            {
-                id: 5.3,
-                name: "Netlify",
-                image: "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-            },
-            {
-                id: 5.4,
-                name: "GitHub Pages",
-                image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-            },
+            // {
+            //     id: 5.3,
+            //     name: "Netlify",
+            //     image: "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            // },
+            // {
+            //     id: 5.4,
+            //     name: "GitHub Pages",
+            //     image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            // },
             {
                 id: 5.5,
                 name: "Vercel",
@@ -175,12 +186,7 @@ export const skills = [
                 image:
                     "https://www.svgrepo.com/show/354202/postman-icon.svg",
             },
-            {
-                id: 6.4,
-                name: "Figma",
-                image:
-                    "https://policyviz.com/wp-content/uploads/2020/05/2000px-Figma-logo.svg-1024x1536.png",
-            },
+
         ]
     }
 ];

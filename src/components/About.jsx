@@ -52,7 +52,7 @@ function About() {
         <button
           className={btnStyle}
         >
-          <a className={linkStyle} href={ResumeAnurag} download='ResumeAnurag.pdf' target="_blank">Resume <FaFileDownload /> </a>
+          <a className={linkStyle} href={Bio.resume} target="_blank">Resume <FaFileDownload /> </a>
         </button>
       </div>
     </div>

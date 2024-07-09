@@ -6,7 +6,7 @@ export const experiences = [
         img: "https://media.licdn.com/dms/image/D560BAQELN71l0Md_HQ/company-logo_200_200/0/1681992257351?e=2147483647&v=beta&t=r61sFSG4RDgfymO9V-1Y0fveF6LgZhydTo1s34ggIHc",
         role: "Full Stack Developer",
         company: "AlmaBetter",
-        date: "June 2023 - May 2024",
+        date: "May 2023 - May 2024",
         desc: "Created, Deployed & Delivered Full Stack Web App Project from Scratch using recent technologies. Make thier web dev material error free. Taken the doubt class of Merge Sort & Redux Toolkit.",
         skills: [
             "ReactJS",
