@@ -30,6 +30,7 @@ function About() {
           height={'300px'}
           width={'300px'}
         />
+
       </div>
       <div className={introAboutWrapper}>
         <div className={introWrapper}>
