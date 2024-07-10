@@ -16,6 +16,8 @@ const faWrapper = 'md:hidden cursor-pointer text-cyan-600 hover:text-cyan-400 du
 const mobileNav = 'md:hidden h-screen bg-gray-950 w-1/2 fixed right-0 p-4'
 const mobileNavUl = 'flex flex-col gap-7 justify-center items-center'
 
+
+
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     const sections = ['skills', 'experience', 'contact'];
@@ -49,6 +51,8 @@ function Navbar() {
         <>
             <div className='sticky top-0 text-cyan-600 z-10'>
                 <div className={navbarContainer}>
+
+                    {/* title  */}
                     <div
                         onClick={() => scrollToTop()}
                         className={logoWrapper}>
@@ -61,6 +65,8 @@ function Navbar() {
                         />
                         <div className={logo}>{Bio.name}</div>
                     </div>
+
+                    {/* sections */}
                     <div className={nav}>
                         {
                             sections && sections.map((section, index) => (
@@ -80,6 +86,7 @@ function Navbar() {
                         }
                     </div>
 
+                    {/* products */}
                     <div className='hidden xl:flex gap-4'>
                         {
                             products && products.map((product, index) => (
@@ -99,6 +106,7 @@ function Navbar() {
                         }
                     </div>
 
+                    {/* menu button */}
                     <div
                         onClick={() => setIsMobile(!isMobile)}
                         className={faWrapper}
@@ -139,6 +147,7 @@ function Navbar() {
                                         <a
                                             key={index}
                                             href={product.live}
+
                                             target='_blank'
                                         >
                                             <button
