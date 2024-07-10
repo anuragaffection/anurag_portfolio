@@ -31,7 +31,7 @@ function Projects() {
                 <div className={overlayStyle}>
 
                   <button className={btnStyle}>
-                    <a href={item.live} target='_blank' rel='noopener noreferrer'>Live Demo</a>
+                    <a href={item.live} target='_blank' rel='noopener noreferrer'>Live</a>
                   </button>
                   <button className={btnStyle}>
                     <a href={item.github} target='_blank' rel='noopener noreferrer' className='text-nowrap'>Github </a>
@@ -52,7 +52,7 @@ function Projects() {
               <div className='flex gap-6 justify-start items-center md:hidden'>
 
                 <button className={btnStyle}>
-                  <a href={item.live} target='_blank' rel='noopener noreferrer'>Live Demo</a>
+                  <a href={item.live} target='_blank' rel='noopener noreferrer'>Live</a>
                 </button>
                 <button className={btnStyle}>
                   <a href={item.github} target='_blank' rel='noopener noreferrer' className='text-nowrap'>Github </a>
