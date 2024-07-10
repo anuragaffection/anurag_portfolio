@@ -11,14 +11,28 @@ const logoImg = 'rounded-full'
 const logo = ` text-xl text-amber-600 font-bold`;
 const nav = ` hidden md:flex justify-center items-center list-none gap-10 `;
 const navLink = `hover:text-cyan-400 text-xl font-semibold duration-500 cursor-pointer`;
-const btnSytle = 'hidden lg:flex bg-gradient-to-r from-cyan-500 to-blue-500 shadow hover:shadow-cyan-400 duration-500 text-gray-950 rounded-lg p-3 px-8'
+const btnSytle = ' bg-gradient-to-r from-cyan-500 to-blue-500 shadow hover:shadow-cyan-400 duration-500 text-gray-950 rounded-lg p-3 px-8'
 const faWrapper = 'md:hidden cursor-pointer text-cyan-600 hover:text-cyan-400 duration-200'
 const mobileNav = 'md:hidden h-screen bg-gray-950 w-1/2 fixed right-0 p-4'
 const mobileNavUl = 'flex flex-col gap-7 justify-center items-center'
 
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
-    const sections = ['about', 'skills', 'experience', 'projects', 'contact'];
+    const sections = ['skills', 'experience', 'contact'];
+    const products = [
+        {
+            name: "Notes",
+            live: Bio.notes
+        },
+        {
+            name: "Resume Builder",
+            live: Bio.resumeBuilder,
+        },
+        {
+            name: "Entertainment",
+            live: Bio.entertainmentWebApp
+        }
+    ]
 
     const capitalizeFirstLetter = (word) => {
         return word.charAt(0).toUpperCase() + word.slice(1);
@@ -65,15 +79,26 @@ function Navbar() {
                             ))
                         }
                     </div>
-                    <button className={btnSytle}>
-                        <a
-                            href={Bio.linkedin}
-                            target='_blank'
-                        >
 
-                            LinkedIn
-                        </a>
-                    </button>
+                    <div className='hidden xl:flex gap-4'>
+                        {
+                            products && products.map((product, index) => (
+                                <a
+                                    key={index}
+                                    href={product.live}
+
+                                    target='_blank'
+                                >
+                                    <button
+                                        className={btnSytle}>
+                                        {product.name}
+                                    </button>
+
+                                </a>
+                            ))
+                        }
+                    </div>
+
                     <div
                         onClick={() => setIsMobile(!isMobile)}
                         className={faWrapper}
@@ -84,6 +109,7 @@ function Navbar() {
                     </div>
                 </div>
                 {
+                    // mobile only 
                     isMobile && (
                         <div
                             className={mobileNav}>
@@ -107,6 +133,24 @@ function Navbar() {
                                     ))
                                 }
                             </ul>
+                            <div className='flex flex-col gap-4 mt-8'>
+                                {
+                                    products && products.map((product, index) => (
+                                        <a
+                                            key={index}
+                                            href={product.live}
+
+                                            target='_blank'
+                                        >
+                                            <button
+                                                className={btnSytle}>
+                                                {product.name}
+                                            </button>
+
+                                        </a>
+                                    ))
+                                }
+                            </div>
                         </div>
                     )
                 }
@@ -117,3 +161,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
