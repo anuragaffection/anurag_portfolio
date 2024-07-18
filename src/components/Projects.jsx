@@ -10,7 +10,7 @@ const projectWrapper = 'bg-gray-950 flex flex-col gap-6 py-10 px-7 rounded-lg bo
 const imgWrapper = 'relative bg-gradient-to-l from-amber-600 to-lime-600 rounded p-px duration-500';
 const projectImgStyle = 'rounded relative';
 const overlayStyle = 'hidden absolute inset-0 md:flex gap-6 justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 duration-500';
-const btnStyle = 'mx-4 flex-1 bg-cyan-500 rounded-lg text-gray-950 py-3 px-5';
+const btnStyle = 'mx-4 flex-1 bg-cyan-500 rounded-lg text-gray-950 py-3 px-3 md:px-5';
 const nameDateWrapper = 'flex flex-col gap-1';
 const nameStyle = 'text-amber-600 text-2xl font-semibold';
 const dateStyle = 'text-gray-400 text-sm';
@@ -49,7 +49,7 @@ function Projects() {
                 <div className={dateStyle}>{item.date}</div>
               </div>
               <div>{item.desc}</div>
-              <div className='flex gap-6 justify-start items-center md:hidden'>
+              <div className='flex justify-between items-center md:hidden'>
 
                 <button className={btnStyle}>
                   <a href={item.live} target='_blank' rel='noopener noreferrer'>Live</a>

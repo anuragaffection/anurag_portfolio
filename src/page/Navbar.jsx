@@ -3,38 +3,26 @@ import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Bio } from '../data/Bio';
+import NavbarMenu from '../components/NavbarMenu';
 
 
-const navbarContainer = `overflow-hidden flex justify-around items-center bg-gray-950 p-4`;
+const navbarContainer = `overflow-hidden flex justify-between items-center bg-gray-950 p-4 px-8 lg:px-24`;
 const logoWrapper = `flex justify-center items-center gap-2 cursor-pointer`
 const logoImg = 'rounded-full'
 const logo = ` text-xl text-amber-600 font-bold`;
 const nav = ` hidden md:flex justify-center items-center list-none gap-10 `;
 const navLink = `hover:text-cyan-400 text-xl font-semibold duration-500 cursor-pointer`;
-const btnSytle = 'text-nowrap w-full bg-gradient-to-r from-cyan-500 to-blue-500 shadow hover:shadow-cyan-400 duration-500 text-gray-950 rounded-lg p-3 px-8'
 const faWrapper = 'md:hidden cursor-pointer text-cyan-600 hover:text-cyan-400 duration-200'
 const mobileNav = 'md:hidden h-screen bg-gray-950 w-1/2 fixed right-0 p-4'
 const mobileNavUl = 'flex flex-col gap-7 justify-center items-center'
 
 
 
+
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     const sections = ['skills', 'experience', 'contact'];
-    const products = [
-        {
-            name: "Notes",
-            live: Bio.notes
-        },
-        {
-            name: "Resume Builder",
-            live: Bio.resumeBuilder,
-        },
-        {
-            name: "Entertainment",
-            live: Bio.entertainmentWebApp
-        }
-    ]
+
 
     const capitalizeFirstLetter = (word) => {
         return word.charAt(0).toUpperCase() + word.slice(1);
@@ -52,11 +40,14 @@ function Navbar() {
             <div className='sticky top-0 text-cyan-600 z-10'>
                 <div className={navbarContainer}>
 
+
+
                     {/* title  */}
                     <div
                         onClick={() => scrollToTop()}
                         className={logoWrapper}>
-                        <img
+
+                        < img
                             className={logoImg}
                             src={AnuragAffection}
                             alt="Logo"
@@ -65,6 +56,8 @@ function Navbar() {
                         />
                         <div className={logo}>{Bio.name}</div>
                     </div>
+
+
 
                     {/* sections */}
                     <div className={nav}>
@@ -86,24 +79,9 @@ function Navbar() {
                         }
                     </div>
 
-                    {/* products */}
-                    <div className='hidden xl:flex gap-4'>
-                        {
-                            products && products.map((product, index) => (
-                                <a
-                                    key={index}
-                                    href={product.live}
-
-                                    target='_blank'
-                                >
-                                    <button
-                                        className={btnSytle}>
-                                        {product.name}
-                                    </button>
-
-                                </a>
-                            ))
-                        }
+                    {/* appbar menu */}
+                    <div className={nav}>
+                        <NavbarMenu />
                     </div>
 
                     {/* menu button */}
@@ -115,12 +93,12 @@ function Navbar() {
                             isMobile ? <FaTimes size={30} /> : <FaBars size={30} />
                         }
                     </div>
+
                 </div>
                 {
                     // mobile only 
                     isMobile && (
-                        <div
-                            className={mobileNav}>
+                        <div className={mobileNav}>
                             <ul className={mobileNavUl}>
                                 {
                                     sections && sections.map((section, index) => (
@@ -141,24 +119,7 @@ function Navbar() {
                                     ))
                                 }
                             </ul>
-                            <div className='flex flex-col gap-4 mt-8'>
-                                {
-                                    products && products.map((product, index) => (
-                                        <a
-                                            key={index}
-                                            href={product.live}
 
-                                            target='_blank'
-                                        >
-                                            <button
-                                                className={btnSytle}>
-                                                {product.name}
-                                            </button>
-
-                                        </a>
-                                    ))
-                                }
-                            </div>
                         </div>
                     )
                 }
