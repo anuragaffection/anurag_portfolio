@@ -26,26 +26,26 @@ export const projects = [
         live: 'https://resume-builder-anurag.vercel.app',
         github: 'https://github.com/anuragaffection/resume_builder'
     },
-    {
-        id: 2,
-        img: article_app,
-        skills: ["React", "Express", "MongoDB", "Tailwind", "JWT", "Axios"],
-        title: 'Article App',
-        date: 'December 2023 - March 2024',
-        desc: 'The Article App allows users to publish their favorite articles. It Support user authentication & authorization. It is full stack project.',
-        live: 'https://blog-mern-frontend-anurag.vercel.app',
-        github: 'https://github.com/anuragaffection/blog_mern_frontend'
-    },
-    {
-        id: 3,
-        img: anurag_portfolio,
-        skills: ["Tailwind CSS", "React", "Javascript", "HTML", "CSS"],
-        title: 'Anurag Portfolio',
-        date: 'January 2024 - present',
-        desc: 'A portfolio app detailing & describing about me. Basically a resume converted into website.',
-        live: 'https://anuragaffection.vercel.app',
-        github: 'https://github.com/anuragaffection/anurag_portfolio'
-    },
+    // {
+    //     id: 2,
+    //     img: article_app,
+    //     skills: ["React", "Express", "MongoDB", "Tailwind", "JWT", "Axios"],
+    //     title: 'Article App',
+    //     date: 'December 2023 - March 2024',
+    //     desc: 'The Article App allows users to publish their favorite articles. It Support user authentication & authorization. It is full stack project.',
+    //     live: 'https://blog-mern-frontend-anurag.vercel.app',
+    //     github: 'https://github.com/anuragaffection/blog_mern_frontend'
+    // },
+    // {
+    //     id: 3,
+    //     img: anurag_portfolio,
+    //     skills: ["Tailwind CSS", "React", "Javascript", "HTML", "CSS"],
+    //     title: 'Anurag Portfolio',
+    //     date: 'January 2024 - present',
+    //     desc: 'A portfolio app detailing & describing about me. Basically a resume converted into website.',
+    //     live: 'https://anuragaffection.vercel.app',
+    //     github: 'https://github.com/anuragaffection/anurag_portfolio'
+    // },
     {
         id: 4,
         img: full_stack_notes,
@@ -56,14 +56,14 @@ export const projects = [
         live: 'https://github.com/anuragaffection/FullStackNotes',
         github: 'https://github.com/anuragaffection/FullStackNotes'
     },
-    {
-        id: 5,
-        img: spotify_clone,
-        skills: ["Tailwind CSS", "React", "React Icons", "Vite", "NPM"],
-        title: 'Spotify Clone',
-        date: 'February 2024 - February 2024',
-        desc: 'Tried cloning the Home and Search pages of Spotify. This was an assignment given during job hunting. Remember, many functionalities will not work, as it is just a frontend Tailwind CSS implementation.',
-        live: 'https://spotify-clone-anurag-affection.netlify.app/',
-        github: 'https://github.com/anuragaffection/spotify-clone-assignment'
-    }
+    // {
+    //     id: 5,
+    //     img: spotify_clone,
+    //     skills: ["Tailwind CSS", "React", "React Icons", "Vite", "NPM"],
+    //     title: 'Spotify Clone',
+    //     date: 'February 2024 - February 2024',
+    //     desc: 'Tried cloning the Home and Search pages of Spotify. This was an assignment given during job hunting. Remember, many functionalities will not work, as it is just a frontend Tailwind CSS implementation.',
+    //     live: 'https://spotify-clone-anurag-affection.netlify.app/',
+    //     github: 'https://github.com/anuragaffection/spotify-clone-assignment'
+    // }
 ]
