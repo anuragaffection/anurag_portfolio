@@ -1,14 +1,11 @@
 export const Bio = {
     name: "Anurag Affection",
     roles: [
-        "Full Stack Web Developer. ",
+        "Full Stack Developer. ",
         "Consistence Learner.",
         "Software Developer. ",
-        "Problem Solver.",
-        "Programmar. ",
-        "Tutor.",
     ],
-    description: "I am an enthusiastic problem solver, consistence learner . Eager to embrace new challenges. Fueled by a passion in technology. I am dedicated to delivering top-notch results. With a positive mindset and a commitment to growth, I am ready to create a meaningful impact and attain significant achievements.",
+    description: "As a Software Developer, I specialize in building scalable, user-friendly applications using technologies like MERN, Next.js, Flutter, Go, and AWS. I have hands-on experience developing and deploying full-stack projects and a strong interest in data structures and algorithms to optimize performance and security. Currently i have 1 & half years of industry experiences, I continuously enhance my skills and stay eager to explore new technologies and deliver impactful solutions.",
     resume: "https://drive.google.com/file/d/1C9QILOOcsz8aX5EV4bZCVCSUNTwIyMT3/view",
     github: "https://github.com/anuragaffection",
     linkedin: "https://www.linkedin.com/in/anuragaffection/",

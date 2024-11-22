@@ -5,7 +5,7 @@ import { FaFileDownload } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { Bio } from '../data/Bio'
 
-const container = ' text-gray-100 text-xl p-8 md:px-24 md:py-20 flex flex-col md:flex-row-reverse gap-6 justify-center items-center'
+const container = ' text-gray-100 text-xl p-8 md:px-24 md:py-10 flex flex-col md:flex-row-reverse gap-6 justify-center items-center'
 const imgWrapper = 'flex-1 flex justify-center items-center'
 const imgStyle = 'rounded-full border border-lime-800 hover:border-lime-500 duration-500'
 const introAboutWrapper = 'flex flex-1 flex-col flex-wrap gap-8'
@@ -35,7 +35,7 @@ function About() {
       <div className={introAboutWrapper}>
         <div className={introWrapper}>
           <h1 className={hiStyle}> Hi, I am</h1>
-          <h1 className={nameStyle}>Anurag Affection</h1>
+          <h1 className={nameStyle}>{ Bio.name}</h1>
           <div className={typedWrapper}>
             <span className={aStyle}>a</span>
             <ReactTyped
@@ -49,7 +49,7 @@ function About() {
             />
           </div>
         </div>
-        <div> {Bio.description}</div>
+        <div className='font-khula leading-relaxed text-lg font-semibold text-gray-300'> {Bio.description}</div>
 
         <div className='flex flex-wrap gap-4 lg:gap-8 xl:gap-16'>
           <button
