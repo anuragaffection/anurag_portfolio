@@ -14,7 +14,7 @@ const typedWrapper = 'text-xl font-semibold mt-2'
 const aStyle = 'font-bold mr-2'
 const typedStyle = 'text-xl text-gray-950 p-1 px-4 rounded bg-gradient-to-l from-amber-600 to-lime-600'
 const btnStyle = 'flex-1 bg-gradient-to-r from-cyan-500 to-blue-500 shadow hover:bg-gradient-to-l duration-500 text-gray-950 font-semibold rounded-lg p-3 px-5 max-h-14'
-const linkStyle = 'flex justify-center items-center'
+const linkStyle = 'flex justify-center items-center text-nowrap'
 
 
 function About() {
