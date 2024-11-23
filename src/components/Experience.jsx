@@ -1,12 +1,12 @@
 import React from 'react'
 import { experiences } from '../data/Experiences.js'
 
-const container = 'text-gray-100 py-20 px-10';
+const container = 'text-gray-100 py-20 px-5 lg:px-10';
 const wrapper = 'flex flex-col justify-center items-center gap-6';
 const title = 'text-4xl font-bold text-amber-500';
 const subTitle = 'text-2xl text-center';
 const expContainer = 'flex flex-col gap-7 md:w-2/3'
-const expWrapper = 'bg-gray-950 flex flex-col gap-4 py-10 px-7 rounded-lg border border-lime-800 hover:border-lime-600 duration-500'
+const expWrapper = 'bg-gray-950 flex flex-col gap-4 py-10 px-5 md:px-7 rounded-lg border border-lime-800 hover:border-lime-600 duration-500 '
 const companyWrapper = 'flex gap-3'
 const companyImgStyle = 'rounded-xl'
 const roleNameDateWrapper = 'flex flex-col gap-1'

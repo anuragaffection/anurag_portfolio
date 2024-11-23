@@ -1,7 +1,7 @@
 import React from 'react';
 import { projects } from '../data/Projects.js';
 
-const container = ' text-gray-100 py-20 px-10';
+const container = ' text-gray-100 py-20 px-5 g:px-10';
 const wrapper = 'flex flex-col justify-center items-center gap-6';
 const title = 'text-4xl font-bold text-amber-500';
 const subTitle = 'text-2xl text-center';

@@ -140,7 +140,7 @@ export const skills = [
             },
             {
                 id: 4.3,
-                name: "Tailwind CSS",
+                name: "Tailwind",
                 image: 'https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp',
             },
             // {
