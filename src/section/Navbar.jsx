@@ -6,7 +6,7 @@ import { Bio } from '../data/Bio';
 import NavbarMenu from '../components/NavbarMenu';
 
 
-const navbarContainer = `overflow-hidden flex justify-between items-center bg-gray-950 p-4 px-8 lg:px-24`;
+const navbarContainer = `overflow-hidden max-w-screen flex justify-between items-center bg-gray-950 p-4 px-8 lg:px-24`;
 const logoWrapper = `flex justify-center items-center gap-2 cursor-pointer`
 const logoImg = 'rounded-full'
 const logo = ` text-xl text-amber-600 font-bold`;
@@ -39,9 +39,6 @@ function Navbar() {
         <>
             <div className='sticky top-0 text-cyan-600 z-10'>
                 <div className={navbarContainer}>
-
-
-
                     {/* title  */}
                     <div
                         onClick={() => scrollToTop()}

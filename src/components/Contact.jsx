@@ -3,7 +3,7 @@ import React from 'react';
 const container = `text-gray-200 py-20 px-2 md:px-8`;
 const wrapper = `flex flex-col gap-3 justify-center items-center my-3`;
 const title = `text-center text-amber-600 text-4xl font-bold`;
-const titleDesc = `text-center text-xl`;
+const titleDesc = `text-center text-wrap text-xl`;
 const contactForm = `flex flex-col gap-6 bg-gray-950 p-5 rounded-lg w-4/5 md:w-2/3 lg:w-1/2`;
 const contactTitle = 'text-amber-600 font-semibold ml-2 text-xl';
 const inputStyle = `bg-gray-700 h-14 p-3 rounded-lg`;

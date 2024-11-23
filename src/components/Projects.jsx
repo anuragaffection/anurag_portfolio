@@ -28,7 +28,7 @@ function Projects() {
             <div className={projectWrapper} key={index}>
               <div className={imgWrapper}>
                 <img className={projectImgStyle} src={item.img} alt="" />
-                <div className={overlayStyle}>
+                {/* <div className={overlayStyle}>
 
                   <button className={btnStyle}>
                     <a href={item.live} target='_blank' rel='noopener noreferrer'>Live</a>
@@ -36,7 +36,7 @@ function Projects() {
                   <button className={btnStyle}>
                     <a href={item.github} target='_blank' rel='noopener noreferrer' className='text-nowrap'>Github </a>
                   </button>
-                </div>
+                </div> */}
 
               </div>
               <div className={skillWrapper}>
@@ -49,7 +49,7 @@ function Projects() {
                 <div className={dateStyle}>{item.date}</div>
               </div>
               <div>{item.desc}</div>
-              <div className='flex justify-between items-center md:hidden'>
+              <div className='flex justify-between items-center '>
 
                 <button className={btnStyle}>
                   <a href={item.live} target='_blank' rel='noopener noreferrer'>Live</a>
