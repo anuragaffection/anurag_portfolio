@@ -33,7 +33,7 @@ export default function NavbarMenu() {
             link: 'https://entertainment-app-anurag-affection.vercel.app/'
         },
         {
-            name: 'Anu AI',
+            name: 'Anu AI (Building)',
             image: "https://anu.gklite.in/anu.webp",
             link: 'https://anu.gklite.in/'
         },
