@@ -32,6 +32,11 @@ export default function NavbarMenu() {
             image: "https://logo.gklite.in/entertainment.png",
             link: 'https://entertainment-app-anurag-affection.vercel.app/'
         },
+        {
+            name: 'Anu AI',
+            image: "https://anu.gklite.in/anu.webp",
+            link: 'https://anu.gklite.in/'
+        },
     ];
 
     return (
