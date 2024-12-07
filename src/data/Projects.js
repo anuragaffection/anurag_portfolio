@@ -4,6 +4,7 @@ import full_stack_notes from '../assets/full_stack_notes.jpg'
 import entertainment_web_app from "../assets/entertainment_app.png"
 import resume_builder from '../assets/resume_builder.jpg'
 import spotify_clone from '../assets/spotify_clone.png'
+import anu_ai from "../assets/anu_ai.png"
 
 export const projects = [
     {
@@ -26,6 +27,16 @@ export const projects = [
         live: 'https://resume-builder-anurag.vercel.app',
         github: 'https://github.com/anuragaffection/resume_builder'
     },
+    {
+        id: 1.1,
+        img: anu_ai,
+        skills: ["React", "React Router Dom", "Tailwind", "Express js", "Cors", "OpenAi"],
+        title: 'Anu AI',
+        date: 'December 2024 - December 2024',
+        desc: 'This was task project at the time of interview, completed this in 2-3 days. Converted PI.ai to Anu.ai ',
+        live: 'https://anu.gklite.in/',
+        github: 'https://github.com/anuragaffection/anu_web_react'
+    },
     // {
     //     id: 2,
     //     img: article_app,
@@ -46,16 +57,16 @@ export const projects = [
     //     live: 'https://anuragaffection.vercel.app',
     //     github: 'https://github.com/anuragaffection/anurag_portfolio'
     // },
-    {
-        id: 4,
-        img: full_stack_notes,
-        skills: ["Java", "DSA", "Javascript", "MERN", "Kotlin"],
-        title: 'Full Stack Notes',
-        date: 'May 2023 - Present',
-        desc: 'A repo you need for Programming & Problem Solving. This is contains everthing you need to be full stack web developer with DSA.',
-        live: 'https://github.com/anuragaffection/FullStackNotes',
-        github: 'https://github.com/anuragaffection/FullStackNotes'
-    },
+    // {
+    //     id: 4,
+    //     img: full_stack_notes,
+    //     skills: ["Java", "DSA", "Javascript", "MERN", "Kotlin"],
+    //     title: 'Full Stack Notes',
+    //     date: 'May 2023 - Present',
+    //     desc: 'A repo you need for Programming & Problem Solving. This is contains everthing you need to be full stack web developer with DSA.',
+    //     live: 'https://github.com/anuragaffection/FullStackNotes',
+    //     github: 'https://github.com/anuragaffection/FullStackNotes'
+    // },
     // {
     //     id: 5,
     //     img: spotify_clone,
