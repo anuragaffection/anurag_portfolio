@@ -33,7 +33,7 @@ export const projects = [
         skills: ["React", "React Router Dom", "Tailwind", "Express js", "Cors", "OpenAi"],
         title: 'Anu AI',
         date: 'December 2024 - December 2024',
-        desc: 'This was task project at the time of interview, completed this in 2-3 days. Converted PI.ai to Anu.ai ',
+        desc: 'This was task project at the time of interview, completed this in 2-3 days. Converted PI.ai to Anu.ai, you can have a talk here, do not spam, also i am using old Openai models, so info may be outdated.',
         live: 'https://anu.gklite.in/',
         github: 'https://github.com/anuragaffection/anu_web_react'
     },
